@@ -54,3 +54,29 @@ Nmap identified both HTTP (8888/tcp) and HTTPS (8443/tcp) services associated wi
 ## crAPI API endpoints Map
 - As for the API, we will be using Burp Suite as our proxy and the same way, simulate actions a normal user would perform while Burp Suite intercepts CRUD http requests.
 ![crAPI web pages map](../../evidence/information_gathering/crAPI_apis_map.png)
+
+## Business Object Inventory
+
+The following business objects were identified during the reconnaissance phase through manual application exploration and API traffic analysis. These objects represent the primary entities managed by the application and will serve as the foundation for subsequent authorization and business logic testing.
+
+### User
+
+The **User** business object and its observable attributes are illustrated below.
+
+![crAPI User Business Object](../../evidence/information_gathering/user_bo.png)
+
+---
+
+### Vehicle
+
+The **Vehicle** business object and its observable attributes are illustrated below.
+
+![crAPI Vehicle Business Object](../../evidence/information_gathering/vehicle_bo.png)
+
+---
+
+### Post
+
+The **Post** business object and its observable attributes are illustrated below.
+
+![crAPI Post Business Object](../../evidence/information_gathering/post_bo.png)

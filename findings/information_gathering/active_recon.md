@@ -48,9 +48,9 @@ Nmap identified both HTTP (8888/tcp) and HTTPS (8443/tcp) services associated wi
 - In a production environment, an improperly configured TLS certificate could increase the risk of users ignoring important browser security warnings.
 
 ## crAPI Web Pages Map
-- To create a map highlighting crAPI's web pages, we will use a combination of manual interaction with the application as a random user would (Without creating any accounts yet !).
-![crAPI web pages map](../../evidence/active_recon/crAPI_web_pages.png)
+- To create a map highlighting crAPI's web pages, we will use a combination of manual interaction with the application as a random user would:
+![crAPI web pages map](../../evidence/information_gathering/crAPI_web_pages_map.png)
 
 ## crAPI API endpoints Map
 - As for the API, we will be using Burp Suite as our proxy and the same way, simulate actions a normal user would perform while Burp Suite intercepts CRUD http requests.
-![crAPI api endpoints map](../../evidence/active_recon/crAPI_apis.png)
+![crAPI web pages map](../../evidence/information_gathering/crAPI_apis_map.png)

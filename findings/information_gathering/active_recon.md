@@ -71,7 +71,7 @@ The **User** business object and its observable attributes are illustrated below
 
 The **Vehicle** business object and its observable attributes are illustrated below.
 
-![crAPI Vehicle Business Object](../../evidence/information_gathering/vehicle_bo.png)
+![crAPI Vehicle Business Object](../../evidence/information_gathering/vehicule_bo.png)
 
 ---
 

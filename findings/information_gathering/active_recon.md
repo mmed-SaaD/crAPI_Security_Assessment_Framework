@@ -4,7 +4,7 @@
 **nmap : v7.99**
 
 ## Scan Command
-**nmap -sV -O -sC -sS 192.168.100.15**
+**nmap -sV -O -sC -sS <TARGET_IP>**
 
 ## Scan Result
 

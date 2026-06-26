@@ -7,22 +7,29 @@
 **nmap -sV -O -sC -sS 192.168.100.15**
 
 ## Scan Result
+
+```text
 Host is up (0.0012s latency).
 Not shown: 992 closed tcp ports (reset)
-PORT     STATE SERVICE         VERSION
-**8443/tcp open  ssl/http        OpenResty web app server 1.27.1.2**
-|_http-server-header: openresty/1.27.1.2
-| **tls-alpn:** 
+
+PORT     STATE SERVICE    VERSION
+8443/tcp open  ssl/http   OpenResty web app server 1.27.1.2
+| http-server-header: openresty/1.27.1.2
+| tls-alpn:
 |   http/1.1
 |   http/1.0
 |_  http/0.9
-|_**http-title: crAPI**
+| http-title: crAPI
 |_ssl-date: TLS randomness does not represent time
-**8888/tcp open  http            OpenResty web app server 1.27.1.2**
-|_http-server-header: openresty/1.27.1.2
-**|_http-title: crAPI**
+
+8888/tcp open  http       OpenResty web app server 1.27.1.2
+| http-server-header: openresty/1.27.1.2
+|_http-title: crAPI
+
 Running: Microsoft Windows 11
 OS CPE: cpe:/o:microsoft:windows_11
+```
+
 
 Nmap identified both HTTP (8888/tcp) and HTTPS (8443/tcp) services associated with the crAPI application. TLS support was confirmed on port 8443 through certificate enumeration and protocol negotiation. Further manual validation is required to confirm full application functionality through the HTTPS endpoint.
 

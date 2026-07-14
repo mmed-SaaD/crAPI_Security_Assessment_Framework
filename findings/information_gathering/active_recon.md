@@ -56,11 +56,11 @@ Nmap identified both HTTP (8888/tcp) and HTTPS (8443/tcp) services associated wi
 
 ## crAPI Web Pages Map
 - To create a map highlighting crAPI's web pages, we will use a combination of manual interaction with the application as a random user would:
-![crAPI web pages map](../../artifacts/figures/crAPI_web_pages_map.png)
+![crAPI web pages map](../../artifacts/figures/mapping/crAPI_web_pages_map.png)
 
 ## crAPI API endpoints Map
 - As for the API, we will be using Burp Suite as our proxy and the same way, simulate actions a normal user would perform while Burp Suite intercepts CRUD http requests.
-![crAPI api map](../../artifacts/figures/crAPI_apis_map.png)
+![crAPI api map](../../artifacts/figures/mapping/crAPI_apis_map.png)
 
 ## Business Object Inventory
 
@@ -70,7 +70,7 @@ The following business objects were identified during the reconnaissance phase t
 
 The **User** business object and its observable attributes are illustrated below.
 
-![crAPI User Business Object](../../artifacts/figures/user_bo.png)
+![crAPI User Business Object](../../artifacts/figures/mapping/user_bo.png)
 
 ---
 
@@ -78,7 +78,7 @@ The **User** business object and its observable attributes are illustrated below
 
 The **Vehicle** business object and its observable attributes are illustrated below.
 
-![crAPI Vehicle Business Object](../../artifacts/figures/vehicle_bo.png)
+![crAPI Vehicle Business Object](../../artifacts/figures/mapping/vehicle_bo.png)
 
 ---
 
@@ -86,7 +86,7 @@ The **Vehicle** business object and its observable attributes are illustrated be
 
 The **Post** business object and its observable attributes are illustrated below.
 
-![crAPI Post Business Object](../../artifacts/figures/post_bo.png)
+![crAPI Post Business Object](../../artifacts/figures/mapping/post_bo.png)
 
 ---
 
@@ -94,7 +94,7 @@ The **Post** business object and its observable attributes are illustrated below
 
 The **Item** business object and its observable attributes are illustrated below.
 
-![crAPI Item Business Object](../../artifacts/figures/item.png)
+![crAPI Item Business Object](../../artifacts/figures/mapping/item.png)
 
 ---
 
@@ -102,4 +102,4 @@ The **Item** business object and its observable attributes are illustrated below
 
 The **Order** business object and its observable attributes are illustrated below.
 
-![crAPI Order Business Object](../../artifacts/figures/order.png)
+![crAPI Order Business Object](../../artifacts/figures/mapping/order.png)

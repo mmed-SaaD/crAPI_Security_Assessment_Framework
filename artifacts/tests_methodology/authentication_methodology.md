@@ -352,16 +352,16 @@ For each finding, collect:
 
 # Authentication Testing Checklist
 
-* [x] Authentication endpoints are mapped
-* [ ] Login validates credentials properly
-* [x] SQL injection login bypass is tested
-* [!] Error messages do not reveal valid users
-* [x] Password policy is enforced
+* [🟢] Authentication endpoints are mapped
+* [🟢] Login validates credentials properly
+* [🟢] SQL injection login bypass is tested
+* [🔴] Error messages do not reveal valid users
+* [🟢] Password policy is enforced
 * [ ] Brute force protection exists
 * [ ] OTP is rate-limited
 * [ ] OTP is time-limited and single-use
 * [ ] Password reset tokens are secure
-* [!] Logout invalidates session/token => Logout does not invalidate session token
+* [🔴] Logout invalidates session/token => Logout does not invalidate session token
 * [ ] Tokens expire properly
 * [ ] Modified tokens are rejected
 * [ ] Sensitive data is not exposed in tokens

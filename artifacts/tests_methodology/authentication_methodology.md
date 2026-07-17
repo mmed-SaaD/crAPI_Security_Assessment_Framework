@@ -361,7 +361,7 @@ For each finding, collect:
 * [❗] OTP is rate-limited
 * [ ] OTP is time-limited and single-use
 * [ ] Password reset tokens are secure
-* [!] Logout invalidates session/token => Logout does not invalidate session token
+* [❗] Logout invalidates session/token => Logout does not invalidate session token
 * [ ] Tokens expire properly
 * [ ] Modified tokens are rejected
 * [✅] Sensitive data is not exposed in tokens
